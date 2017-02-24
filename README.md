@@ -2,7 +2,7 @@
 <p>An Discord Bot using Eris library by abalabahaha</p>
 <strong>How to install?</strong>
 <li>You must have Node.JS</li>
-<li>Install <a href="https://github.com/abalabahaha/eris">Eris</a> by <a href="https://github.com/abalabahaha">abalabahaha using npm i eris</a></li>
+<li>Install <a href="https://github.com/abalabahaha/eris">Eris</a> by <a href="https://github.com/abalabahaha">abalabahaha</a> using npm i eris</li>
 <strong>Now to configurate it</strong>
 <li>Open erissettings.json</li>
 Meanings of the erissettings.json:
