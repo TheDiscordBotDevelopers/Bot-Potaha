@@ -3,6 +3,7 @@
 <strong>How to install?</strong>
 <li>You must have Node.JS</li>
 <li>Install <a href="https://github.com/abalabahaha/eris">Eris</a> by <a href="https://github.com/abalabahaha">abalabahaha</a> using npm i eris</li>
+<li>Edit runbot.js, i mean change "tokerino here" to your bot token, explained below.</li>
 <li>Start your bot using node yourbotfilename.js</li>
 <strong>Now to configurate it</strong>
 <li>Open erissettings.json</li>
