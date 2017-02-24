@@ -1,5 +1,5 @@
 # Bot-Potaha
-An Discord Bot using Eris library by abalabahaha
+<p>An Discord Bot using Eris library by abalabahaha</p>
 <strong>How to install?</strong>
 <li>You must have Node.JS</li>
 <li>Install <a href="https://github.com/abalabahaha/eris">Eris</a> by <a href="https://github.com/abalabahaha">abalabahaha using npm i eris</a>
