@@ -1,6 +1,6 @@
 module.exports.runBot = function(token) {
 const Eris = require("eris");
-const ErisSettings = require("./erisErisSettings.json")
+const ErisSettings = require("./ErisSettings.json")
 token = ErisSettings.token
 prefix = ErisSettings.prefix
 oid = ErisSettings.oid
@@ -11,7 +11,7 @@ ErisClient.editStatus(
   {name: ErisSettings.playing}
 )
 ErisClient.on("ready", () => {
-    console.log("Ready, username: " + ErisClient.username);
+    console.log("Ready.");
 });
 
 ErisClient.on("messageCreate", (msg) => {
@@ -29,11 +29,5 @@ ErisClient.on("messageCreate", (msg) => {
 		}
 	}
   });
-
-
-
-
-
-
-
-ErisClient.connect();
+  ErisClient.connect();
+}
