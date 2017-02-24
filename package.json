@@ -2,14 +2,14 @@
   "name": "bot-potaha",
   "version": "1.0.0",
   "description": "Simple Node.JS Discord Bot using Eris lib",
-  "main": "bp.js",
+  "main": "runbot.js",
   "dependencies": {
     "eris": "^0.5.2",
     "node-osu": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node bp.js"
+    "test": "node runbot.js"
   },
   "repository": {
     "type": "git",
