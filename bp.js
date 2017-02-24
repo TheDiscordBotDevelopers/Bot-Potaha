@@ -1,10 +1,10 @@
 module.exports.runBot = function(token) {
 const Eris = require("eris");
-const ErisSettings = require("./ErisSettings.json")
-token = ErisSettings.token
-prefix = ErisSettings.prefix
-oid = ErisSettings.oid
-playing = ErisSettings.playing
+const ErisSettings = require("./ErisSettings.json"),
+token = ErisSettings.token,
+prefix = ErisSettings.prefix,
+oid = ErisSettings.oid,
+playing = ErisSettings.playing,
 osuApi = ErisSettings.osuApi
 var ErisClient = new Eris(token);
 ErisClient.editStatus(
